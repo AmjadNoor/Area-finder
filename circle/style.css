@@ -50,7 +50,6 @@ body{
 }
 .foo{
   bottom: 0;
-  position: fixed;
   width: 100%;
 }
 .foo p{
@@ -63,4 +62,41 @@ body{
 .foo p a{
   color: gray;
   background-color: black;
+}
+#header2{
+  text-align: center;
+  margin-top: 10vw;
+}
+#container{
+  text-align: center;
+  margin-top: 5vw;
+}
+#inp1{
+  padding-left: 1vw;
+  border: 0.3vw solid black;
+  border-radius: 1vw;
+}
+#btn1{
+  padding: 0 1vw;
+  border: 0.3vw solid black;
+  border-radius: 1vw;
+}
+#para1{
+  text-align: center;
+  margin: 3vw 2vw;
+}
+.img1{
+  max-width: 100%;
+  margin: 5vw 10vw;
+}
+#para2{
+  padding: 1vw 2vw ;
+  background-color: #A9A9A9;
+  display: border-box;
+  margin: 0 2vw;
+}
+#para3, #para4, #para5{
+  margin: 2vw;
+  padding:1vw 2vw;
+  background-color: #A9A9A9;
 }
