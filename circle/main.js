@@ -12,6 +12,6 @@ function check() {
   const circleArea = pi * r ** 2;
 
   if (fig) {
-    document.getElementById('para1').innerHTML = `The area of circle is ${circleArea}`;
+    document.getElementById('para1').innerHTML = `The area of circle is ${circleArea}.`;
   }
 }

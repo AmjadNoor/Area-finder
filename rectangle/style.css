@@ -48,9 +48,55 @@ body{
   font-size: 4vw;
   padding: 1vw 10vw;
 }
+#header2{
+  margin: 10vw;
+  text-align: center;
+}
+#container{
+  margin-top: 5vw;
+  text-align: center;
+}
+#inp1, #inp2{
+  padding-left: 1vw;
+  border: 0.3vw solid black;
+  border-radius: 1vw;
+}
+#btn1{
+  float: right;
+  margin-right: 2vw;
+  padding: 0 1vw;
+  border: 0.3vw solid black;
+  border-radius: 1vw;
+}
+#para1{
+  text-align: center;
+  margin: 3vw 2vw;
+}
+#img1{
+  max-width: 100%;
+  margin: 5vw 0;
+}
+#para2{
+  padding: 1vw 2vw ;
+  background-color: #A9A9A9;
+  margin: 0 2vw;
+}
+#para3{
+  padding: 1vw 2vw;
+  background-color: #A9A9A9;
+  margin: 2vw;
+}
+#header3{
+  margin: 3vw 2vw;
+}
+#para4, #para5, #para6, #para7, #para8, #para9, #para10{
+  padding: 1vw 2vw;
+  background-color: #A9A9A9;
+  margin: 2vw;
+}
 .foo{
+  margin-top: 5vw;
   bottom: 0;
-  position: fixed;
   width: 100%;
 }
 .foo p{
