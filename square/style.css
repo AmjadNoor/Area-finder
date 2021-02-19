@@ -88,9 +88,22 @@ body{
   max-width: 100%;
   margin: 5vw auto;
 }
+#para2{
+  padding: 1vw 2vw ;
+  background-color: #A9A9A9;
+  margin: 0 2vw;
+}
+#header3{
+  margin: 3vw 2vw;
+  font-size: 4vw;
+}
+#para3, #para4, #para5, #para6, #para7, #para8, #para9{
+  padding: 1vw 2vw;
+  background-color: #A9A9A9;
+  margin: 2vw;
+}
 .foo{
   bottom: 0;
-  position: fixed;
   width: 100%;
 }
 .foo p{
