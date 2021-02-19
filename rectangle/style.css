@@ -60,10 +60,19 @@ body{
   padding-left: 1vw;
   border: 0.3vw solid black;
   border-radius: 1vw;
+  width:70vw;
+  height: 5vw;
+  margin-top: 2vw;
+}
+::placeholder{
+  text-align: center;
+  font-size: 3.5vw;
+  padding-top: 2vw;
 }
 #btn1{
-  float: right;
+  margin-left: 45vw;
   margin-right: 2vw;
+  margin-top: 2vw;
   padding: 0 1vw;
   border: 0.3vw solid black;
   border-radius: 1vw;
