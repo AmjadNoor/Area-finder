@@ -63,6 +63,7 @@ body{
   width:70vw;
   height: 5vw;
   margin-top: 2vw;
+  font-size: 3.5vw;
 }
 ::placeholder{
   text-align: center;
@@ -76,14 +77,19 @@ body{
   padding: 0 1vw;
   border: 0.3vw solid black;
   border-radius: 1vw;
+  height: 5vw;
+  width: 12vw;
+  text-align: center;
+  font-size: 3vw;
 }
 #para1{
   text-align: center;
   margin: 3vw 2vw;
 }
 #img1{
+  display: block;
   max-width: 100%;
-  margin: 5vw 0;
+  margin: 5vw auto;
 }
 #para2{
   padding: 1vw 2vw ;
