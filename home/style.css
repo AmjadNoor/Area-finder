@@ -18,6 +18,10 @@ body{
 .header h1{
   float: right;
 }
+.header h1 a{
+  color: black;
+  text-decoration: none;
+}
 .sidenav{
   height: 100%;
   width: 0;
