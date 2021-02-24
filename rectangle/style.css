@@ -1,132 +1,162 @@
-*{
-  margin: 0;
-  padding: 0;
-  display: border-box;
-  font-family: 'Nunito', sans-serif;
+* {
+ margin: 0;
+ padding: 0;
+ display: border-box;
+ font-family: 'Nunito', sans-serif;
 }
-body{
-  background-color: skyblue;
+
+body {
+ background-color: skyblue;
 }
-.header{
-  font-size: 2.5vw;
-  padding: 10px;
+
+.header {
+ font-size: 2.5vw;
+ padding: 10px;
 }
-.header i{
-  font-size: 5vw;
-  cursor: pointer;
+
+.header i {
+ font-size: 5vw;
+ cursor: pointer;
 }
-.header h1{
-  float: right;
+
+.header h1 {
+ float: right;
 }
-.header h1 a{
-  color: black;
-  text-decoration: none;
+
+.header h1 a {
+ color: black;
+ text-decoration: none;
 }
-.sidenav{
-  height: 100%;
-  width: 0;
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 1;
-  background-color: black;
-  overflow-x: hidden;
-  transition: 0.5s;
-  padding-top: 5vw;
+
+.sidenav {
+ height: 100%;
+ width: 0;
+ position: fixed;
+ top: 0;
+ left: 0;
+ z-index: 1;
+ background-color: black;
+ overflow-x: hidden;
+ transition: 0.5s;
+ padding-top: 5vw;
 }
-.sidenav :hover{
-  color: white;
+
+.sidenav :hover {
+ color: white;
 }
-.sidenav i{
-  font-size: 5vw;
-  color: gray;
-  background-color: black;
-  float: right;
-  top: 0;
-  padding: 1vw 2vw;
-  cursor: pointer;
+
+.sidenav i {
+ font-size: 5vw;
+ color: gray;
+ background-color: black;
+ float: right;
+ top: 0;
+ padding: 1vw 2vw;
+ cursor: pointer;
 }
-.sidenav a{
-  text-decoration: none;
-  color: gray;
-  font-size: 4vw;
-  padding: 1vw 10vw;
+
+.sidenav a {
+ text-decoration: none;
+ color: gray;
+ font-size: 4vw;
+ padding: 1vw 10vw;
 }
-#header2{
-  margin: 10vw;
-  text-align: center;
+
+#header2 {
+ margin: 10vw;
+ text-align: center;
 }
-#container{
-  margin-top: 5vw;
-  text-align: center;
+
+#container {
+ margin-top: 5vw;
+ text-align: center;
 }
-#inp1, #inp2{
-  padding-left: 1vw;
-  border: 0.3vw solid black;
-  border-radius: 1vw;
-  width:70vw;
-  height: 5vw;
-  margin-top: 2vw;
-  font-size: 3.5vw;
+
+#inp1,
+#inp2 {
+ padding-left: 1vw;
+ border: 0.3vw solid black;
+ border-radius: 1vw;
+ width: 70vw;
+ height: 5vw;
+ margin-top: 2vw;
+ font-size: 3.5vw;
 }
-::placeholder{
-  text-align: center;
-  font-size: 3.5vw;
-  padding-top: 2vw;
+
+::placeholder {
+ text-align: center;
+ font-size: 3.5vw;
+ padding-top: 2vw;
 }
-#btn1{
-  margin-left: 45vw;
-  margin-right: 2vw;
-  margin-top: 2vw;
-  padding: 0 1vw;
-  border: 0.3vw solid black;
-  border-radius: 1vw;
-  height: 5vw;
-  width: 12vw;
-  text-align: center;
-  font-size: 3vw;
+
+#btn1 {
+ margin-left: 45vw;
+ margin-right: 2vw;
+ margin-top: 2vw;
+ padding: 0 1vw;
+ border: 0.3vw solid black;
+ border-radius: 1vw;
+ height: 5vw;
+ width: 12vw;
+ text-align: center;
+ font-size: 3vw;
 }
-#para1{
-  text-align: center;
-  margin: 3vw 2vw;
+
+#para1 {
+ text-align: center;
+ margin: 3vw 2vw;
 }
-#img1{
-  display: block;
-  max-width: 100%;
-  margin: 5vw auto;
+
+#img1 {
+ display: block;
+ max-width: 100%;
+ margin: 5vw auto;
 }
-#para2{
-  padding: 1vw 2vw ;
-  background-color: #A9A9A9;
-  margin: 0 2vw;
+
+#para2 {
+ padding: 1vw 2vw;
+ background-color: #A9A9A9;
+ margin: 0 2vw;
 }
-#para3{
-  padding: 1vw 2vw;
-  background-color: #A9A9A9;
-  margin: 2vw;
+
+#para3 {
+ padding: 1vw 2vw;
+ background-color: #A9A9A9;
+ margin: 2vw;
 }
-#header3{
-  margin: 3vw 2vw;
-  font-size: 4vw;
+
+#header3 {
+ margin: 3vw 2vw;
+ font-size: 4vw;
 }
-#para4, #para5, #para6, #para7, #para8, #para9, #para10{
-  padding: 1vw 2vw;
-  background-color: #A9A9A9;
-  margin: 2vw;
+
+#para4,
+#para5,
+#para6,
+#para7,
+#para8,
+#para9,
+#para10 {
+ padding: 1vw 2vw;
+ background-color: #A9A9A9;
+ margin: 2vw;
 }
-.foo{
-  margin-top: 5vw;
-  bottom: 0;
-  width: 100%;
+
+.foo {
+ margin-top: 5vw;
+ bottom: 0;
+ width: 100%;
 }
-.foo p{
-  color: white;
-  padding: 2vw 3vw;
-  font-size: 3vw;
-  background-color: black;
-  text-align: center;
+
+.foo p {
+ color: white;
+ padding: 2vw 3vw;
+ font-size: 3vw;
+ background-color: black;
+ text-align: center;
 }
-.foo p a{
-  color: gray;
-  background-color: black;
+
+.foo p a {
+ color: gray;
+ background-color: black;
 }

@@ -1,7 +1,7 @@
-function openNav(){
-  document.getElementById('sidenav').style.width = "50vw";
+function openNav() {
+ document.getElementById('sidenav').style.width = "50vw";
 }
 
-function closeNav(){
-  document.getElementById('sidenav').style.width = "0";
+function closeNav() {
+ document.getElementById('sidenav').style.width = "0";
 }
