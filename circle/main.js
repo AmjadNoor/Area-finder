@@ -8,7 +8,7 @@ function closeNav() {
 
 function check() {
  const fig = 'Circle';
- const pi = 22 / 7;
+ const pi = Math.PI;
  let r = document.getElementById('inp1').value;
  const circleArea = pi * r ** 2;
 
