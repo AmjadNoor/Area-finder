@@ -1,95 +1,95 @@
 * {
- margin: 0;
- padding: 0;
- display: border-box;
- font-family: 'Nunito', sans-serif;
+  margin: 0;
+  padding: 0;
+  display: border-box;
+  font-family: 'Nunito', sans-serif;
 }
 
 body {
- background-color: skyblue;
+  background-color: skyblue;
 }
 
 .header {
- font-size: 2.5vw;
- padding: 10px;
+  font-size: 2.5vw;
+  padding: 10px;
 }
 
 .header i {
- font-size: 5vw;
- cursor: pointer;
+  font-size: 5vw;
+  cursor: pointer;
 }
 
 .header h1 {
- float: right;
+  float: right;
 }
 
 .sidenav {
- height: 100%;
- width: 0;
- position: fixed;
- top: 0;
- left: 0;
- z-index: 1;
- background-color: black;
- overflow-x: hidden;
- transition: 0.5s;
- padding-top: 5vw;
+  height: 100%;
+  width: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background-color: black;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 5vw;
 }
 
 .sidenav :hover {
- color: white;
+  color: white;
 }
 
 .sidenav i {
- font-size: 5vw;
- color: gray;
- background-color: black;
- float: right;
- top: 0;
- padding: 1vw 2vw;
- cursor: pointer;
+  font-size: 5vw;
+  color: gray;
+  background-color: black;
+  float: right;
+  top: 0;
+  padding: 1vw 2vw;
+  cursor: pointer;
 }
 
 .sidenav a {
- text-decoration: none;
- color: gray;
- font-size: 4vw;
- padding: 1vw 10vw;
+  text-decoration: none;
+  color: gray;
+  font-size: 4vw;
+  padding: 1vw 10vw;
 }
 
 #hd2 {
- display: block;
- font-size: 6vw;
- text-align: center;
- padding-top: 20vw;
+  display: block;
+  font-size: 6vw;
+  text-align: center;
+  padding-top: 20vw;
 }
 
 #para1 {
- text-align: center;
- font-size: 5vw;
- padding-top: 5vw;
+  text-align: center;
+  font-size: 5vw;
+  padding-top: 5vw;
 }
 
 #para2 {
- font-size: 4vw;
- padding: 2vw 3vw;
+  font-size: 4vw;
+  padding: 2vw 3vw;
 }
 
 .foo {
- bottom: 0;
- position: fixed;
- width: 100%;
+  bottom: 0;
+  position: fixed;
+  width: 100%;
 }
 
 .foo p {
- color: white;
- padding: 2vw 3vw;
- font-size: 3vw;
- background-color: black;
- text-align: center;
+  color: white;
+  padding: 2vw 3vw;
+  font-size: 3vw;
+  background-color: black;
+  text-align: center;
 }
 
 .foo p a {
- color: gray;
- background-color: black;
+  color: gray;
+  background-color: black;
 }
