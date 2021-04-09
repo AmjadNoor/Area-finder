@@ -2,55 +2,56 @@
 <html>
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Area Finder</title>
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
-  <script src="https://kit.fontawesome.com/85270978f0.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="style.css" type="text/css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Area Finder</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/85270978f0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link rel="icon" href="images/icon.jpeg" />
 </head>
 
 <body>
-  <header class="header">
-    <i class="fas fa-bars" onclick="openNav()"></i>
-    <h1><a href="../index.html">Area Finder</a></h1>
-  </header>
-  <div id="sidenav" class="sidenav">
-    <nav>
-      <i class="fas fa-times" onclick="closeNav()"></i>
-      <a href="../index.html">Home</a>
-      <a href="../square/square.html">Square</a>
-      <a href="../circle/circle.html">Circle</a>
-      <a href="../rectangle/rectangle.html">Rectangle</a>
-    </nav>
-  </div>
-  <div>
-    <main>
-      <h1 id="header2">Triangle</h1>
-      <div id="container">
-        <input type="number" id="inp1" placeholder="Base" required />
-        <input type="number" id="inp2" placeholder="Height" required />
-      </div>
-      <button onclick="check()" id="btn1" type="submit">Check</button>
-      <p id="para1"></p>
-      <img id="img1" src="triangle.png" alt="Triangle" />
-      <article>
-        <p id="para2"><strong>Triangles</strong> are polygons (shapes) with three sides and three angles, which can be formed by connecting any three points in a plane. They are one of the first shapes studied in geometry.</p>
-        <p id="para3">The sum of any two sides of the triangle is always strictly greater than the third side. This property, known as the <strong>triangle inequality</strong>.</p>
-        <p id="para4">The measure of an <strong>exterior angle</strong> of a triangle is the sum of its two remote interior angles. <strong>Remote interior angles</strong> are the interior angles of a triangle that are opposite to the exterior angle under consideration.</p>
-        <h3 id="header3">Theorems</h3>
-        <p id="para5">If <em>ABC</em> is a triangle, then <em>&angle;ABC</em> &plus; <em>&angle;BCA</em> &plus; <em>&angle;CAB</em> &equals; 180&deg;. In other words, the sum of the 3 internal angles in any triangle is 180&deg;.</p>
-        <p id="para6">The area of a triangle is <em>A</em> &equals; <sup>bh</sup>&sol;<sub>2</sub>, where <em>b</em> is the length of the base and <em>h</em> is the height.</p>
-      </article>
-    </main>
-  </div>
-  <div class="foo">
-    <footer>
-      <p>This project is made by <a href="https://github.com/AmjadNoor">Amjad Noor</a></p>
-    </footer>
-  </div>
-  <script src="main.js"></script>
+    <header class="header">
+        <i class="fas fa-bars" onclick="openNav()"></i>
+        <h1><a href="../index.html">Area Finder</a></h1>
+    </header>
+    <div id="sidenav" class="sidenav">
+        <nav>
+            <i class="fas fa-times" onclick="closeNav()"></i>
+            <a href="../index.html">Home</a>
+            <a href="../square/square.html">Square</a>
+            <a href="../circle/circle.html">Circle</a>
+            <a href="../rectangle/rectangle.html">Rectangle</a>
+        </nav>
+    </div>
+    <div>
+        <main>
+            <h1 id="header2">Triangle</h1>
+            <div id="container">
+                <input type="number" id="inp1" placeholder="Base" required />
+                <input type="number" id="inp2" placeholder="Height" required />
+            </div>
+            <button onclick="check()" id="btn1" type="submit">Check</button>
+            <p id="para1"></p>
+            <img id="img1" src="triangle.png" alt="Triangle" />
+            <article>
+                <p id="para2"><strong>Triangles</strong> are polygons (shapes) with three sides and three angles, which can be formed by connecting any three points in a plane. They are one of the first shapes studied in geometry.</p>
+                <p id="para3">The sum of any two sides of the triangle is always strictly greater than the third side. This property, known as the <strong>triangle inequality</strong>.</p>
+                <p id="para4">The measure of an <strong>exterior angle</strong> of a triangle is the sum of its two remote interior angles. <strong>Remote interior angles</strong> are the interior angles of a triangle that are opposite to the exterior angle under consideration.</p>
+                <h3 id="header3">Theorems</h3>
+                <p id="para5">If <em>ABC</em> is a triangle, then <em>&angle;ABC</em> &plus; <em>&angle;BCA</em> &plus; <em>&angle;CAB</em> &equals; 180&deg;. In other words, the sum of the 3 internal angles in any triangle is 180&deg;.</p>
+                <p id="para6">The area of a triangle is <em>A</em> &equals; <sup>bh</sup>&sol;<sub>2</sub>, where <em>b</em> is the length of the base and <em>h</em> is the height.</p>
+            </article>
+        </main>
+    </div>
+    <div class="foo">
+        <footer>
+            <p>This project is made by <a href="https://github.com/AmjadNoor">Amjad Noor</a></p>
+        </footer>
+    </div>
+    <script src="main.js"></script>
 </body>
 
 </html>
